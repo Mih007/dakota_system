@@ -15,7 +15,6 @@
 
 <body style="background-color: rgb(0, 0, 0);">
 
-    
     <section>
         <div class="container-fluit">
             <div class="row">
@@ -51,82 +50,98 @@
 
     <br><br><br><br><br><br><br><br><br><br>
 
-    <section>
-        <div class="container-fluit slider">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/slideP1.png" alt="Primeiro Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/slideP2.png" alt="Segundo Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/slideP3.png" alt="Terceiro Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/slideP4.png" alt="Terceiro Slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Próximo</span>
-                </a>
-              </div>
-        </div>
-    </section>
 
+    
     <section>
-        <div class="container-fluit propaganda1">
+        <div class="container-fluit">
             <div class="row">
-                <div>
-                    <img src="img/Propaganda 1.png" width="1931">
-                </div>
+                <img src="img/devMobTrainee.png" alt="">
+            </div>
+            <div class="row">
+                <?php  ?> 
             </div>
         </div>
     </section>
-
-    <br><br><br>
-
+    
+    <br><br><br><br><br><br>
     <section>
-        <div class="container-fluit titulo01">
-            Uma plataforma integrada, com tudo
-            pra um mundo realmente digital.
-            <br><br>
-            <div class="descricao">
-                <img src="img/educacao01.png" width="350" height="500">
+        <div class="container-fluit">
+            <div class="row">
+                <img src="img/devMobJunior.png" alt="">
             </div>
-            <div class="descricao">
-                <img src="img/docs02.png" width="350" height="500">
-            </div>
-            <br>
-            <div class="descricao">
-                <img src="img/aplicativo03.png" width="350" height="500">
-            </div>
-            <div class="descricao">
-                <img src="img/bi04.png" width="350" height="500">
-            </div>
-            <br>
-            <div class="descricao">
-                <img src="img/arrecadacao05.png" width="350" height="500">
-            </div>
-            <div class="descricao">
-                <img src="img/transparencia06.png" width="350" height="500">
+            <div class="row">
+                <?php 
+                ?>
+                <button><img src="img/1.png" alt=""></button>
             </div>
         </div>
     </section>
-    <br>
-
+    <br><br><br><br><br><br>
+    <section>
+        <div class="container-fluit">
+            <div class="row">
+                <img src="img/devMobSenior.png" alt="">
+            </div>
+            <div class="row">
+                <?php 
+                ?>
+                <button><img src="img/1.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <section>
+        <div class="container-fluit">
+            <div class="row">
+                <img src="img/devEngenheiroDeSoftware.png" alt="">
+            </div>
+            <div class="row">
+                <?php 
+                ?>
+                <button><img src="img/1.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <section>
+        <div class="container-fluit">
+            <div class="row">
+                <img src="img/devFrontEnd.png" alt="">
+            </div>
+            <div class="row">
+                <?php 
+                ?>
+                <button><img src="img/1.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <section>
+        <div class="container-fluit">
+            <div class="row">
+                <img src="img/devBlackEnd.png" alt="">
+            </div>
+            <div class="row">
+                <?php 
+                ?>
+                <button><img src="img/1.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <section>
+        <div class="container-fluit">
+            <div class="row">
+                <img src="img/devDesktop.png" alt="">
+            </div>
+            <div class="row">
+                <?php 
+                ?>
+                <button><img src="img/1.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
     <footer id="rodape">
         <div class="container-fluit text-center">
             <div class="row">
@@ -152,7 +167,7 @@
                     <h4 class="tituloVagas">Vagas de emprego</h4>
                     <a href=""><i class="fa">Cargos</i></a>
                     <br>
-                    <a href="cargosDisponiveis.php"><i class="fa">Cargos Disponiveis</i></a>
+                    <a href="#"><i class="fa">Cargos Disponiveis</i></a>
                     
                 </div>
             </div>
